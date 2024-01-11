@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_simple_calculator: ^2.2.4
+  http : ^1.1.0
+  google_fonts : ^6.1.0
 
 dev_dependencies:
   flutter_test:

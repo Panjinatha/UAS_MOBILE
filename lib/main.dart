@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Calculator.dart';
+import 'package:flutter_application_1/Chat.dart';
 import 'package:flutter_application_1/Dashboard.dart';
 import 'package:flutter_application_1/Desc.dart';
 import 'package:flutter_application_1/Register.dart';
 import 'package:flutter_application_1/Splash.dart';
+import 'package:flutter_application_1/Gempa.dart';
 
 void main() {
   runApp(MainApp());

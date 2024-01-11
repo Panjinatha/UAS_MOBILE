@@ -7,8 +7,8 @@ class BMICalculator extends StatefulWidget {
 
 class BMIPage extends State<BMICalculator> {
   double height = 170; // Tinggi awal dalam cm
-  double weight = 70;  // Berat awal dalam kg
-  double bmi = 0;      // Inisialisasi BMI
+  double weight = 70; // Berat awal dalam kg
+  double bmi = 0; // Inisialisasi BMI
   String bmiCategory = ''; // Kategori BMI
 
   void calculateBMI() {

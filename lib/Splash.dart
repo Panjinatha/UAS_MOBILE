@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
             //     'assets/logo.png'), // Ganti dengan path ke gambar/logo Anda
             // SizedBox(height: 20),
             Text(
-              'Selamat Datang!',
+              'TUGAS UAS MOBILE',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,

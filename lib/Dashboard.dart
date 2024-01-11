@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Chat.dart';
 import 'package:flutter_application_1/Desc.dart';
+import 'package:flutter_application_1/Gempa.dart';
 import 'package:flutter_application_1/Login.dart';
+import 'package:flutter_application_1/Model/Gempamodel.dart';
 import 'package:flutter_application_1/Suhu.dart';
 import '../Calculator.dart';
 import '../Desc.dart';
@@ -30,13 +33,26 @@ class DashboardPage extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.home),
-            title: Text('Beranda'),
+            title: Text('Data API Gempa'),
             onTap: () {
               // Tambahkan logika untuk menavigasi ke beranda di sini
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => DashboardPage(),
+                  builder: (context) => EarthquakePage(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.info), // Icon about
+            title: Text('Chat Admin'),
+            onTap: () {
+              // Tambahkan logika untuk menavigasi ke halaman about (about.dart)
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ChatPage(),
                 ),
               );
             },
